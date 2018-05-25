@@ -230,4 +230,4 @@ function slider2right(){
     }
 	reviewsboxesline.style.left = left +'px';
 }
-console.log('ok');
+console.log('top');
