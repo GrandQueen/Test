@@ -1,0 +1,29 @@
+<svg 
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            width="193px" height="61px">
+                           <defs>
+                           <filter filterUnits="userSpaceOnUse" id="Filter_0" x="0px" y="0px" width="193px" height="61px"  >
+                               <feOffset in="SourceAlpha" dx="0" dy="5" />
+                               <feGaussianBlur result="blurOut" stdDeviation="3.873" />
+                               <feFlood flood-color="rgb(43, 155, 207)" result="floodOut" />
+                               <feComposite operator="atop" in="floodOut" in2="blurOut" />
+                               <feComponentTransfer><feFuncA type="linear" slope="0.3"/></feComponentTransfer>
+                               <feMerge>
+                               <feMergeNode/>
+                               <feMergeNode in="SourceGraphic"/>
+                             </feMerge>
+                           </filter>
+                           <linearGradient id="PSgrad_0" x1="0%" x2="17.365%" y1="98.481%" y2="0%">
+                             <stop offset="0%" stop-color="rgb(119,107,226)" stop-opacity="1" />
+                             <stop offset="100%" stop-color="rgb(43,155,207)" stop-opacity="1" />
+                           </linearGradient>
+                           
+                           </defs>
+                           <g filter="url(#Filter_0)">
+                           <path fill-rule="evenodd"  fill="rgb(90, 190, 6)"
+                            d="M174.000,41.000 L27.594,41.000 C25.385,41.000 23.594,39.209 23.594,37.000 L23.594,30.962 L14.010,25.496 L23.594,20.031 L23.594,13.000 C23.594,10.791 25.385,9.000 27.594,9.000 L174.000,9.000 C176.209,9.000 178.000,10.791 178.000,13.000 L178.000,37.000 C178.000,39.209 176.209,41.000 174.000,41.000 Z"/>
+                           </g>
+                           <path fill="url(#PSgrad_0)"
+                            d="M174.000,41.000 L27.594,41.000 C25.385,41.000 23.594,39.209 23.594,37.000 L23.594,30.962 L14.010,25.496 L23.594,20.031 L23.594,13.000 C23.594,10.791 25.385,9.000 27.594,9.000 L174.000,9.000 C176.209,9.000 178.000,10.791 178.000,13.000 L178.000,37.000 C178.000,39.209 176.209,41.000 174.000,41.000 Z"/>
+                           </svg>

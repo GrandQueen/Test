@@ -1,0 +1,17 @@
+.window-modal-box{
+    width: 100%;
+    //display: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(#271645,0.9);
+    filter: blur(20px);
+    position: fixed;
+    z-index: 6;
+}
+.modal-box{
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #fff;
+    z-index: 6;
+}

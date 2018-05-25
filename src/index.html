@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>T</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/media.css">
+    
+</head>
+<body>
+        <!-- <section class="window-modal" id="window-modal">
+                <div class="modal-box">
+                    <div class="modal-box-inside">
+                            <span class="application-right-title">Заявка<br>
+                                на расчет</span>
+                                 <form class="application-form">
+                                        <form action="" class="callback-form callback-form-modal"> 
+                                                <div class="inp-wrap"> 
+                                                <input type="text" name="" id="" class="inp" required> 
+                                                <div class="inp-text">Ваше имя</div> 
+                                                </div> 
+                                                <div class="inp-wrap"> 
+                                                <input type="text" name="" id="" class="inp" required> 
+                                                <div class="inp-text">Ваш телефон<span class="red">*</span></div> 
+                                                </div> 
+                                                <div class="inp-wrap"> 
+                                                <input type="text" name="" id="" class="inp" required> 
+                                                <div class="inp-text">Комментарий</div> 
+                                                </div> 
+                                                <button class="modal-btn">Отправить заявку</button> 
+                                                </form>
+                                </form>
+                                 <div class="modal-close"></div> 
+                    </div>
+                    <div id="modal-close" class="modal-close"  onmouseover="changecol1()" onmouseout="changecol2()">
+                        <div class="close-img">
+                            <img class="img1" src="../img/down-arrow.svg">
+                            <img class="img2" src="../img/down-arrow.svg">
+                        </div>
+                        <button id="close-btn" class="close-btn" onmousedown="changecol3()">СВЕРНУТЬ</button>
+                    </div>
+                </div>
+            </section> -->
+    <section class="window-modal-box" id="window-modal-box" >
+        <div class="container modal-box">
+                <dvi class="step step1" id="step1">
+                            <div class="modal-inside">
+                                <button class="modal-exit"></button>
+                                    <div class="top">
+                                        <span class="modal-title">Расчет стоимости</span>
+                                        <span class="modal-text">Шаг 1. Выберите платформу:</span>
+                                    </div>
+                                    <div class="chose">
+                                        <button class="chose-btn" id="chose-vk">Вконтакте</button>
+                                        <button class="chose-btn" id="chose-facebook">Facebook</button>
+                                        <button class="chose-btn" id="chose-telegram">Telegram</button>
+                                        <button class="chose-btn" id="chose-viber">Viber</button>
+                                        <button class="chose-btn" id="chose-ok">Одноклассники</button>
+                                    </div>
+                                        <div class="but">
+                                            <button class="btn-next">Продолжить</button>
+                                        </div>
+                        </div>
+                        </dvi>
+                    
+              
+<dvi class="step step2" id="step2">
+              
+            <div class="modal-inside">
+                    <button class="modal-bac"></button>
+                    <button class="modal-exit"></button>
+                    <div class="top">
+                        <span class="modal-title">Расчет стоимости</span>
+                        <span class="modal-text">Шаг 2. Выберите тип бота:</span>
+                        </div>
+                        <div class="chose2">
+                            <div class="chose2-item chose2-item1">
+                                <div class="ins">
+                               <div class="item1-img"></div>
+                                <span class="chose2-title">Консультант</span>
+                                <span class="chose2-text">Пару слов о том, что делает такой замечательный бот для клиента.</span>
+                                </div>
+                            </div>
+                            <div class="chose2-item chose2-item1">
+                                    <div class="ins">
+                                   <div class="item1-img"></div>
+                                    <span class="chose2-title">Консультант</span>
+                                    <span class="chose2-text">Пару слов о том, что делает такой замечательный бот для клиента.</span>
+                                    </div>
+                                </div>
+                                <div class="chose2-item chose2-item1">
+                                        <div class="ins">
+                                       <div class="item1-img"></div>
+                                        <span class="chose2-title">Консультант</span>
+                                        <span class="chose2-text">Пару слов о том, что делает такой замечательный бот для клиента.</span>
+                                        </div>
+                                    </div>
+                                    <div class="chose2-item chose2-item1">
+                                            <div class="ins">
+                                           <div class="item1-img"></div>
+                                            <span class="chose2-title">Консультант</span>
+                                            <span class="chose2-text">Пару слов о том, что делает такой замечательный бот для клиента.</span>
+                                            </div>
+                                        </div>
+                                        <div class="chose2-item chose2-item1">
+                                                <div class="ins">
+                                               <div class="item1-img"></div>
+                                                <span class="chose2-title">Консультант</span>
+                                                <span class="chose2-text">Пару слов о том, что делает такой замечательный бот для клиента.</span>
+                                                </div>
+                                            </div>
+
+                        </div>
+                        <div class="but">
+                            <button class="btn-next">Продолжить</button>
+                        </div>
+                    </div>
+                        
+   
+</dvi>
+<dvi class="step step3" id="step3">
+    <div class="modal-inside">
+            <div class="modal-inside">
+                    <button class="modal-bac"></button>
+                    <button class="modal-exit"></button>
+                    <div class="top">
+                        <span class="modal-title">Расчет стоимости</span>
+                        <span class="modal-text">Шаг 3. Интеграции с другими сервисами:</span>
+                        </div>
+                        <div class="chose3">
+                                <div class="chose3-item chose2-item1">
+                                    <div class="ins">
+                                   <div class="item1-img"></div>
+                                    <span class="chose3-title">Интернет-магазин</span>
+                                    <span class="chose3-text">Пару слов о том, что делает такой замечательный бот для клиента.</span>
+                                    </div>
+                                </div>
+                                <div class="chose3-item chose2-item1">
+                                        <div class="ins">
+                                       <div class="item1-img"></div>
+                                        <span class="chose3-title">Интернет-магазин</span>
+                                        <span class="chose3-text">Пару слов о том, что делает такой замечательный бот для клиента.</span>
+                                        </div>
+                                    </div>
+                                    <div class="chose3-item chose2-item1">
+                                            <div class="ins">
+                                           <div class="item1-img"></div>
+                                            <span class="chose3-title">Интернет-магазин</span>
+                                            <span class="chose3-text">Пару слов о том, что делает такой замечательный бот для клиента.</span>
+                                            </div>
+                                        </div>
+                                        <div class="chose3-item chose2-item1">
+                                                <div class="ins">
+                                               <div class="item1-img"></div>
+                                                <span class="chose3-title">Интернет-магазин</span>
+                                                <span class="chose3-text">Пару слов о том, что делает такой замечательный бот для клиента.</span>
+                                                </div>
+                                            </div>
+                                            <div class="chose3-item chose2-item1">
+                                                    <div class="ins">
+                                                   <div class="item1-img"></div>
+                                                    <span class="chose3-title">Интернет-магазин</span>
+                                                    <span class="chose3-text">Пару слов о том, что делает такой замечательный бот для клиента.</span>
+                                                    </div>
+                                                </div>
+                                
+    
+                            </div>
+                            <div class="but">
+                                    <button class="btn-next">Продолжить</button>
+                                </div>
+                    </div>
+                        </div>
+    </div>
+</dvi>
+<dvi class="step step4" id="step4"> 
+    <div class="modal-inside">
+            <div class="modal-inside">
+                    <div class="top">
+                        <span class="modal-title"></span>
+                        <span class="modal-text"></span>
+                        <div class="chose"></div>
+                        <div class="but">
+                            <button></button>
+                        </div>
+                    </div>
+                        </div>
+    </div>
+</dvi>
+<dvi class="step step5" id="step5">
+    <div class="modal-inside">
+            <div class="modal-inside">
+                    <div class="top">
+                        <span class="modal-title"></span>
+                        <span class="modal-text"></span>
+                        <div class="chose"></div>
+                        <div class="but">
+                            <button></button>
+                        </div>
+                    </div>
+                        </div>
+    </div>
+</dvi>
+<dvi class="step step6" id="step6">
+    <div class="modal-inside">
+            <div class="modal-inside">
+                    <div class="top">
+                        <span class="modal-title"></span>
+                        <span class="modal-text"></span>
+                        <div class="chose"></div>
+                        <div class="but">
+                            <button></button>
+                        </div>
+                    </div>
+                        </div>
+    </div>
+</dvi>  
+    </section>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+            <div class="cont-bacgr">
+<div class="container">
+    
+                <div class="first-bacgr"><header>
+                    <div class="phone">
+                            <img src="img/phone111.png">
+                    </div>
+                    <div class="firstline">
+                    <div class="logname">
+                           <img src="img/logoblack.svg">
+                              
+                </div>
+                <div class="conn-box">
+                    <img class="connect_img" src="img/link-bg.svg">
+                <a class="connect_btn" href="#">Начать чат с нами
+                </a>
+                </div>
+                <div class="lang">
+                    <button class="lang_ru"></button>
+                    <button class="lang_en"></button>
+
+                </div>
+            </div>
+            <div class="contact-box">
+                <div href="#" ><img src="img/vk-social-network-logo.svg"></div>
+                <div href="#" ><img src="img/facebook-logo.svg"></div>
+                <div href="#" ><img src="img/telegram.svg"></div>
+                <div href="#" ><img src="img/odnoklassniki.svg"></div>
+                <div href="#" class="contact-box-last" ><img src="img/viber.svg"></div>
+            </div>
+            <div class="maintext">
+                <span>БОТЫ В </span> <span class="telega"></span><br><span>
+                        ЛЮБОЙ СЛОЖНОСТИ</span>
+            </div>
+            <span class="maintext2">Экономят от 20% вашего времени</span>
+            <div class="buttons">           
+            <button class="but1" id="window-modal-open" onmousedown="modalopen()">Рассчитать стоимость</button>
+            <a href="" class="but2">Типы ботов</a>
+            </div>
+
+        </header>
+
+            <section class="container-types">
+              <div class="types-title-container">
+                <span class="types-title">Типы ботов</span>
+                <div class="slise-btn">
+                <button id="1slider-left" class="slide-scroll-left scroll-btn 1slider-left"  onmousedown="slider1Left()"></button>
+                <button id="1slider-right" class="slide-scroll-right scroll-btn 1slider-right" onmousedown="slider1right()"></button>
+                </div>
+           </div>
+           <!-- 111111111111111111111111111 -->
+                <div class="types-slider">
+                <div id="typessliderboxes" class="types-slider-boxes">
+                    <div class="types-slider-boxes-item item1">
+                        <div class="item">
+                            <img class="item-img" src="img/magnifying-glass-with-two-way-arrows.svg">
+                            <span class="item-titile">Аналитик</span>
+                            <span class="item-text">Анализирует данные с любых источников и оповещает по сценарию.</span>
+                        </div>
+                    </div>
+                    <div class="types-slider-boxes-item item2">
+                            <div class="item">
+                                    <img class="item-img" src="img/speech-bubbles-comment-option.svg">
+                                    <span class="item-titile">Консультант</span>
+                                    <span class="item-text">Проконсультирует вашего посетителя по заданному сценарию.</span>
+                                </div>
+                    </div>
+                    <div class="types-slider-boxes-item item3">
+                            <div class="item">
+                                    <img class="item-img" src="img/dollar-symbol.svg">
+                                    <span class="item-titile">Помощник в заказе</span>
+                                    <span class="item-text">Поможет сделать заказ
+                                            товара или услуги
+                                            <br>в вашем магазине.</span>
+                                </div>
+                    </div>
+                    <div class="types-slider-boxes-item item4">
+                            <div class="item">
+                                    <img class="item-img" src="img/four-squares.svg">
+                                    <span class="item-titile">Планировщик</span>
+                                    <span class="item-text">Простое составление заданий и напоминание по заданному сценарию.</span>
+                                </div>
+                    </div>
+                    <div class="types-slider-boxes-item item5">
+                            <div class="item">
+                                    <img class="item-img" src="img/four-squares.svg">
+                                    <span class="item-titile">Title</span>
+                                    <span class="item-text">Простое составление заданий и напоминание по заданному сценарию.</span>
+                                </div>
+                    </div>
+                    <div class="types-slider-boxes-item item6">
+                            <div class="item">
+                                    <img class="item-img" src="img/four-squares.svg">
+                                    <span class="item-titile">Title</span>
+                                    <span class="item-text">Простое составление заданий и напоминание по заданному сценарию.</span>
+                                </div>
+                    </div>
+            </div>
+            </div>
+            <!-- <div class="slider__scroll">
+                    <div class="slider__scroll-marker"></div>
+                </div> -->
+            </section>
+<section class="about">
+    <span class="about-title">Как мы работаем</span>
+    <div class="about-boxes">
+        <div class="about-boxes-item about-item1">
+                <img class="about-item-img" src="img/telephone.svg">
+                <span class="about-item-text">Наш специалист<br>
+                        связывается с вами</span>
+        </div>
+        <div class="arrows">
+            <div class="arrow"><img class="arrow1" src="../img/play-button.svg"></div>
+            <div class="arrow"><img class="arrow2" src="../img/play-button.svg"></div>
+            <div class="arrow"><img class="arrow3" src="../img/play-button.svg"></div>
+        </div>
+        <div class="about-boxes-item about-item2">
+                <img class="about-item-img" src="img/keyboard-key-enter.svg">
+                <span class="about-item-text">Определяем<br>
+                        функционал</span>
+        </div>
+        <div class="arrows">
+            <div class="arrow"><img class="arrow1" src="../img/play-button.svg"></div>
+            <div class="arrow"><img class="arrow2" src="../img/play-button.svg"></div>
+            <div class="arrow"><img class="arrow3" src="../img/play-button.svg"></div>
+        </div>
+        <div class="about-boxes-item about-item3">
+                <img class="about-item-img" src="img/clock-circular-outline.svg">
+                <span class="about-item-text">Определяем сроки<br>
+                        и стоимость</span>
+        </div>
+        <div class="arrows">
+            <div class="arrow"><img class="arrow1" src="../img/play-button.svg"></div>
+            <div class="arrow"><img class="arrow2" src="../img/play-button.svg"></div>
+            <div class="arrow"><img class="arrow3" src="../img/play-button.svg"></div>
+        </div>
+        <div class="about-boxes-item about-item4">
+                <img class="about-item-img" src="img/programming-code-signs.svg">
+                <span class="about-item-text">Вы оплачиваете,<br>
+                        мы начинаем!</span>
+        </div>
+    </div>
+</section></div>
+<section class="application">
+    <div class="application-left">
+        <div class="application-left-container">
+                <img class="application-left-container-img" src="img/robo.png">
+                <span class="application-left-container-text">Бриф<br>на разработку</span>
+                <button>Заполнить</button>
+        </div>
+    </div>
+    <div class="application-right">
+    <div class="application-right-container">
+        <span class="application-right-title">Заявка<br>
+                на расчет</span>
+                <!-- <form class="application-form"> -->
+                        <form action="" class="callback-form"> 
+                                <div class="inp-wrap"> 
+                                <input type="text" name="" id="" class="inp" required> 
+                                <div class="inp-text">Ваше имя</div> 
+                                </div> 
+                                <div class="inp-wrap"> 
+                                <input type="text" name="" id="" class="inp" required> 
+                                <div class="inp-text">Ваш телефон<span class="red">*</span></div> 
+                                </div> 
+                                <div class="inp-wrap"> 
+                                <input type="text" name="" id="" class="inp" required> 
+                                <div class="inp-text">Комментарий</div> 
+                                </div> 
+                                <button class="">Отправить заявку</button> 
+                                </form>
+                </form>
+    </div>
+
+</div>
+
+</section>
+<div class="second-bacgr">
+<section class="reviews">
+        <div class="types-title-container">
+                <span class="reviews-title">Отзывы</span>
+                <div class="slise-btn">
+                <button id="2slider-left" class="slide-scroll-left scroll-btn 2slider-left" onmousedown="slider2Left()"></button>
+                <button id="2slider-right" class="slide-scroll-right scroll-btn 2slider-right" onmousedown="slider2right()"></button>
+                </div></div>
+   
+    <div class="reviews-boxes">
+        <div id="reviewsboxesline" class="reviews-boxes-line">
+        <div class="reviews-boxes-item">
+            <div class="reviews-item-first">
+                <div class="reviews-item-title">
+                    <img class="reviews-item-title-img" src="img/face.png">
+                    <div class="reviews-item-title-persone">
+                        <span class="persone-name">Владимир Вольфович</span>
+                        <div class="stars">
+                        <img class="reviews-item-title-star" src="img/staryel.png">
+                        <img class="reviews-item-title-star" src="img/staryel.png">
+                        <img class="reviews-item-title-star" src="img/staryel.png">
+                        <img class="reviews-item-title-star" src="img/staryel.png">
+                        <img class="reviews-item-title-star" src="img/staryel.png">
+                    </div>
+                        <span class="persone-email">@fungamebot</span>
+
+                    </div>
+
+                </div></div>
+                <div class="reviews-item-com">
+                    <span class="reviews-item-com-text">Как в любом общепите есть текучка персонала:
+                         каждый приходящий официант или помощник повара - это постоянная адаптация сотрудника 
+                         к должности: ему надо показать меню, рассказать, что и как работает, где лежит, 
+                         откуда списывается, куда заказываться и т.д. и т.п. В общем уйма времени руководителя 
+                         тратится на обучение новичков.</span>
+                </div>
+
+        </div>
+        <div class="reviews-boxes-item">
+                <div class="reviews-item-first">
+                    <div class="reviews-item-title">
+                        <img class="reviews-item-title-img" src="img/face.png">
+                        <div class="reviews-item-title-persone">
+                            <span class="persone-name">Владимир Вольфович</span>
+                            <div class="stars">
+                            <img class="reviews-item-title-star" src="img/staryel.png">
+                            <img class="reviews-item-title-star" src="img/staryel.png">
+                            <img class="reviews-item-title-star" src="img/staryel.png">
+                            <img class="reviews-item-title-star" src="img/staryel.png">
+                            <img class="reviews-item-title-star" src="img/staryel.png">
+                        </div>
+                            <span class="persone-email">@fungamebot</span>
+    
+                        </div>
+    
+                    </div></div>
+                    <div class="reviews-item-com">
+                        <span class="reviews-item-com-text">Как в любом общепите есть текучка персонала:
+                             каждый приходящий официант или помощник повара - это постоянная адаптация сотрудника 
+                             к должности: ему надо показать меню, рассказать, что и как работает, где лежит, 
+                             откуда списывается, куда заказываться и т.д. и т.п. В общем уйма времени руководителя 
+                             тратится на обучение новичков.</span>
+                    </div>
+    
+            </div>
+            <div class="reviews-boxes-item">
+                    <div class="reviews-item-first">
+                        <div class="reviews-item-title">
+                            <img class="reviews-item-title-img" src="img/face.png">
+                            <div class="reviews-item-title-persone">
+                                <span class="persone-name">Владимир Вольфович</span>
+                                <div class="stars">
+                                <img class="reviews-item-title-star" src="img/staryel.png">
+                                <img class="reviews-item-title-star" src="img/staryel.png">
+                                <img class="reviews-item-title-star" src="img/staryel.png">
+                                <img class="reviews-item-title-star" src="img/staryel.png">
+                                <img class="reviews-item-title-star" src="img/staryel.png">
+                            </div>
+                                <span class="persone-email">@fungamebot</span>
+        
+                            </div>
+        
+                        </div></div>
+                        <div class="reviews-item-com">
+                            <span class="reviews-item-com-text">Как в любом общепите есть текучка персонала:
+                                 каждый приходящий официант или помощник повара - это постоянная адаптация сотрудника 
+                                 к должности: ему надо показать меню, рассказать, что и как работает, где лежит, 
+                                 откуда списывается, куда заказываться и т.д. и т.п. В общем уйма времени руководителя 
+                                 тратится на обучение новичков.</span>
+                        </div>
+        
+                </div>
+                <div class="reviews-boxes-item">
+                        <div class="reviews-item-first">
+                            <div class="reviews-item-title">
+                                <img class="reviews-item-title-img" src="img/face.png">
+                                <div class="reviews-item-title-persone">
+                                    <span class="persone-name">Владимир Вольфович</span>
+                                    <div class="stars">
+                                    <img class="reviews-item-title-star" src="img/staryel.png">
+                                    <img class="reviews-item-title-star" src="img/staryel.png">
+                                    <img class="reviews-item-title-star" src="img/staryel.png">
+                                    <img class="reviews-item-title-star" src="img/staryel.png">
+                                    <img class="reviews-item-title-star" src="img/staryel.png">
+                                </div>
+                                    <span class="persone-email">@fungamebot</span>
+            
+                                </div>
+            
+                            </div></div>
+                            <div class="reviews-item-com">
+                                <span class="reviews-item-com-text">Как в любом общепите есть текучка персонала:
+                                     каждый приходящий официант или помощник повара - это постоянная адаптация сотрудника 
+                                     к должности: ему надо показать меню, рассказать, что и как работает, где лежит, 
+                                     откуда списывается, куда заказываться и т.д. и т.п. В общем уйма времени руководителя 
+                                     тратится на обучение новичков.</span>
+                            </div>
+            
+                    </div>
+            <div class="reviews-boxes-item">
+                    <div class="reviews-item-first">
+                        <div class="reviews-item-title">
+                            <img class="reviews-item-title-img" src="img/face.png">
+                            <div class="reviews-item-title-persone">
+                                <span class="persone-name">Владимир Вольфович</span>
+                                <div class="stars">
+                                <img class="reviews-item-title-star" src="img/staryel.png">
+                                <img class="reviews-item-title-star" src="img/staryel.png">
+                                <img class="reviews-item-title-star" src="img/staryel.png">
+                                <img class="reviews-item-title-star" src="img/staryel.png">
+                                <img class="reviews-item-title-star" src="img/staryel.png">
+                            </div>
+                                <span class="persone-email">@fungamebot</span>
+        
+                            </div>
+        
+                        </div></div>
+                        <div class="reviews-item-com">
+                            <span class="reviews-item-com-text">Как в любом общепите есть текучка персонала:
+                                 каждый приходящий официант или помощник повара - это постоянная адаптация сотрудника 
+                                 к должности: ему надо показать меню, рассказать, что и как работает, где лежит, 
+                                 откуда списывается, куда заказываться и т.д. и т.п. В общем уйма времени руководителя 
+                                 тратится на обучение новичков.</span>
+                        </div>
+        
+                </div>
+                <div class="reviews-boxes-item">
+                        <div class="reviews-item-first">
+                            <div class="reviews-item-title">
+                                <img class="reviews-item-title-img" src="img/face.png">
+                                <div class="reviews-item-title-persone">
+                                    <span class="persone-name">Владимир Вольфович</span>
+                                    <div class="stars">
+                                    <img class="reviews-item-title-star" src="img/staryel.png">
+                                    <img class="reviews-item-title-star" src="img/staryel.png">
+                                    <img class="reviews-item-title-star" src="img/staryel.png">
+                                    <img class="reviews-item-title-star" src="img/staryel.png">
+                                    <img class="reviews-item-title-star" src="img/staryel.png">
+                                </div>
+                                    <span class="persone-email">@fungamebot</span>
+            
+                                </div>
+            
+                            </div></div>
+                            <div class="reviews-item-com">
+                                <span class="reviews-item-com-text">Как в любом общепите есть текучка персонала:
+                                     каждый приходящий официант или помощник повара - это постоянная адаптация сотрудника 
+                                     к должности: ему надо показать меню, рассказать, что и как работает, где лежит, 
+                                     откуда списывается, куда заказываться и т.д. и т.п. В общем уйма времени руководителя 
+                                     тратится на обучение новичков.</span>
+                            </div>
+            
+                    </div>
+        
+        </div>
+    </div>
+    <!-- <div class="slider__scroll reviews-slider__scroll">
+            <div class="slider__scroll-marker reviews-slider__scroll-marker"></div>
+        </div> -->
+</section>
+
+<section class="partners">
+<div class="partners-box">
+        <div class="item-img item-img1"><img  src="img/partners1.png"></div>
+        <div class="item-img item-img2"><img  src="img/partners2.png"></div>
+        <div class="item-img item-img3"><img  src="img/partners3.png"></div>
+        <div class="item-img item-img4"><img  src="img/partners4.png"></div>
+        <div class="item-img item-img5"><img  src="img/partners5.png"></div>
+        <div class="item-img item-img6"><img  src="img/partner-img4.png"></div>
+        <div class="item-img item-img7"><img  src="img/partner-img5.png"></div>
+</div>
+<span class="partners-text">Наши партнеры</span>
+</section>
+</div>
+
+
+
+
+
+
+</div>
+<footer class="foot-container">
+<div class="foot-box">
+        <span class="foot-title">Запишитесь на бесплатную консультацию</span>
+        <span class="foot-title-2"><a>Или напишите нам </a><a id="MIFSoftWare">@MIFSoftWare</a></span>
+                    <form action="" class="foot-callback-form"> 
+                            
+                            <div class="foot-inp-wrap"> 
+                            <input type="text" name="" id="" class="foot-inp" required> 
+                            <div class="foot-inp-text">Ваше имя</div> 
+                            </div> 
+                            <div class="foot-inp-wrap"> 
+                            <input type="text" name="" id="" class="foot-inp" required> 
+                            <div class="foot-inp-text">Ваш телефон<span class="red">*</span></div> 
+                            </div> 
+                            <div class="foot-inp-wrap"> 
+                            <input type="text" name="" id="" class="foot-inp" required> 
+                            <div class="foot-inp-text">Комментарий</div> 
+                            </div> 
+                            <button class="foot-btn">Отправить заявку</button> 
+                        </form>       
+                            </div>
+                            <div class="last-box">
+                                <div class="last-box-firest">    
+                                <div class="logname">
+                                            <img src="img/logowhite.svg">
+                                               
+                                 </div>
+                                 <div class="conn-box">
+                                     <img class="connect_img" src="img/link-bg.svg">
+                                 <a class="connect_btn" href="#">Начать чат с нами
+                                 </a>
+                                 </div></div>
+                                 <span class="last-box-second">Copyright © 2018</span>
+                            </div>
+</footer>
+</div>
+
+<script src="../js/jquery-3.2.1.min.js"></script> 
+<script src="../js/typed.js"></script>
+ <!-- <script src="../src/js/main.js"></script>    -->
+<script src="../js/main.js"></script>
+<!-- <script  src="/js/slide.js"></script> -->
+    
+</body>
+</html>
